@@ -14,3 +14,7 @@ coverage/
 *.swo
 *~
 .cache/
+
+# Java build outputs
+java/target/
+*.class
