@@ -46,10 +46,15 @@ ts/
 │   │   └── 5-dip/
 │   │
 │   ├── 02-patterns/        # Design Patterns
-│   │   └── creational/
-│   │       ├── 1-singleton/
-│   │       ├── 2-factory-method/
-│   │       └── 3-abstract-factory/
+│   │   ├── creational/
+│   │   │   ├── 1-singleton/
+│   │   │   ├── 2-factory-method/
+│   │   │   └── 3-abstract-factory/
+│   │   └── structural/
+│   │       ├── 1-adapter/
+│   │       ├── 2-decorator/
+│   │       ├── 3-facade/
+│   │       └── 4-proxy/
 │   │
 │   └── shared/             # Common utilities
 │
@@ -88,9 +93,17 @@ Learn design principles for maintainable code:
 
 ### 3. Design Patterns (02-patterns/)
 Learn proven solutions to design problems:
+
+#### Creational Patterns
 - **Singleton**: `creational/1-singleton/README.md`
 - **Factory Method**: `creational/2-factory-method/README.md`
 - **Abstract Factory**: `creational/3-abstract-factory/README.md`
+
+#### Structural Patterns
+- **Adapter**: `structural/1-adapter/README.md`
+- **Decorator**: `structural/2-decorator/README.md`
+- **Facade**: `structural/3-facade/README.md`
+- **Proxy**: `structural/4-proxy/README.md`
 
 ## 🎓 How to Use Each Concept
 

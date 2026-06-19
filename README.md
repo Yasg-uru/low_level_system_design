@@ -36,7 +36,7 @@ lld-practice/
 │   ├── src/
 │   │   ├── 00-oops/         (Abstraction, Encapsulation, Inheritance, Polymorphism)
 │   │   ├── 01-solid/        (SRP, OCP, LSP, ISP, DIP with bad/good)
-│   │   ├── 02-patterns/     (Singleton, Factory, Abstract Factory)
+│   │   ├── 02-patterns/     (Creational & Structural Patterns)
 │   │   └── shared/
 │   ├── docs/                (Theory and learning materials)
 │   ├── exercises/           (Practice problems)
@@ -87,6 +87,13 @@ Both languages include:
 - **Singleton** ✅ (eager + lazy initialization in Java)
 - **Factory Method** (structure ready)
 - **Abstract Factory** (structure ready)
+
+### Design Patterns (Structural)
+TypeScript implementation includes:
+- **Adapter** (translates interface compatibility)
+- **Decorator** (adds behavior dynamically)
+- **Facade** (coordinates subsystems under a simple entry point - also in Java)
+- **Proxy** (surrogate to control access, cache, or log calls)
 
 ---
 

@@ -49,10 +49,15 @@ java/
 │   │   └── dip/
 │   │
 │   └── patterns/             # Design Patterns
-│       └── creational/
-│           ├── singleton/
-│           ├── factorymethod/
-│           └── abstractfactory/
+│       ├── creational/
+│       │   ├── singleton/
+│       │   ├── factorymethod/
+│       │   └── abstractfactory/
+│       └── structural/
+│           ├── adapter/
+│           ├── decorator/
+│           ├── facade/
+│           └── proxy/
 │
 ├── src/test/java/com/lld/   # JUnit 5 tests
 │   ├── oops/
@@ -89,11 +94,19 @@ Learn design principles for maintainable code:
 - **ISP**: `isp/` (Interface Segregation - structure ready)
 - **DIP**: `dip/` (Dependency Inversion - structure ready)
 
-### 3. Design Patterns (patterns/creational/)
+### 3. Design Patterns (patterns/)
 Learn proven solutions to design problems:
-- **Singleton**: `singleton/` (eager + lazy initialization, Logger example)
-- **Factory Method**: `factorymethod/` (structure ready)
-- **Abstract Factory**: `abstractfactory/` (structure ready)
+
+#### Creational Patterns (patterns/creational/)
+- **Singleton**: `creational/singleton/` (eager + lazy initialization, Logger example)
+- **Factory Method**: `creational/factorymethod/` (structure ready)
+- **Abstract Factory**: `creational/abstractfactory/` (structure ready)
+
+#### Structural Patterns (patterns/structural/)
+- **Adapter**: `structural/adapter/`
+- **Decorator**: `structural/decorator/`
+- **Facade**: `structural/facade/`
+- **Proxy**: `structural/proxy/`
 
 ## 🎓 How to Use Each Concept
 
