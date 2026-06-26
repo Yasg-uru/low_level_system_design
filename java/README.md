@@ -53,11 +53,15 @@ java/
 │       │   ├── singleton/
 │       │   ├── factorymethod/
 │       │   └── abstractfactory/
-│       └── structural/
-│           ├── adapter/
-│           ├── decorator/
-│           ├── facade/
-│           └── proxy/
+│       ├── structural/
+│       │   ├── adapter/
+│       │   ├── decorator/
+│       │   ├── facade/
+│       │   └── proxy/
+│       └── behavioral/
+│           ├── observer/
+│           ├── strategy/
+│           └── command/
 │
 ├── src/test/java/com/lld/   # JUnit 5 tests
 │   ├── oops/
@@ -107,6 +111,11 @@ Learn proven solutions to design problems:
 - **Decorator**: `structural/decorator/`
 - **Facade**: `structural/facade/`
 - **Proxy**: `structural/proxy/`
+
+#### Behavioral Patterns (patterns/behavioral/)
+- **Observer**: `behavioral/observer/`
+- **Strategy**: `behavioral/strategy/`
+- **Command**: `behavioral/command/`
 
 ## 🎓 How to Use Each Concept
 

@@ -50,11 +50,16 @@ ts/
 │   │   │   ├── 1-singleton/
 │   │   │   ├── 2-factory-method/
 │   │   │   └── 3-abstract-factory/
-│   │   └── structural/
-│   │       ├── 1-adapter/
-│   │       ├── 2-decorator/
-│   │       ├── 3-facade/
-│   │       └── 4-proxy/
+│   │   ├── structural/
+│   │   │   ├── 1-adapter/
+│   │   │   ├── 2-decorator/
+│   │   │   ├── 3-facade/
+│   │   │   └── 4-proxy/
+│   │   └── behavioral/
+│   │       ├── 1-observer/
+│   │       ├── 2-strategy/
+│   │       ├── 3-command/
+│   │       └── 4-state/
 │   │
 │   └── shared/             # Common utilities
 │
@@ -104,6 +109,12 @@ Learn proven solutions to design problems:
 - **Decorator**: `structural/2-decorator/README.md`
 - **Facade**: `structural/3-facade/README.md`
 - **Proxy**: `structural/4-proxy/README.md`
+
+#### Behavioral Patterns
+- **Observer**: `behavioral/1-observer/README.md`
+- **Strategy**: `behavioral/2-strategy/README.md`
+- **Command**: `behavioral/3-command/README.md`
+- **State**: `behavioral/4-state/README.md`
 
 ## 🎓 How to Use Each Concept
 
