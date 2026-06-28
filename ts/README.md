@@ -59,7 +59,8 @@ ts/
 │   │       ├── 1-observer/
 │   │       ├── 2-strategy/
 │   │       ├── 3-command/
-│   │       └── 4-state/
+│   │       ├── 4-state/
+│   │       └── 5-iterator/
 │   │
 │   └── shared/             # Common utilities
 │
@@ -115,6 +116,7 @@ Learn proven solutions to design problems:
 - **Strategy**: `behavioral/2-strategy/README.md`
 - **Command**: `behavioral/3-command/README.md`
 - **State**: `behavioral/4-state/README.md`
+- **Iterator**: `behavioral/5-iterator/README.md`
 
 ## 🎓 How to Use Each Concept
 
