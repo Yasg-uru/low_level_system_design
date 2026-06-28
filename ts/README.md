@@ -61,6 +61,7 @@ ts/
 │   │       ├── 3-command/
 │   │       ├── 4-state/
 │   │       ├── 5-iterator/
+│   │       ├── 6-cor/
 │   │       └── 7-template/
 │   │
 │   └── shared/             # Common utilities
@@ -118,6 +119,7 @@ Learn proven solutions to design problems:
 - **Command**: `behavioral/3-command/README.md`
 - **State**: `behavioral/4-state/README.md`
 - **Iterator**: `behavioral/5-iterator/README.md`
+- **Chain of Responsibility**: `behavioral/6-cor/README.md`
 - **Template Method**: `behavioral/7-template/README.md`
 
 ## 🎓 How to Use Each Concept

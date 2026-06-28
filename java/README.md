@@ -63,6 +63,7 @@ java/
 │           ├── strategy/
 │           ├── command/
 │           ├── iterator/
+│           ├── cor/
 │           └── template/
 │
 ├── src/test/java/com/lld/   # JUnit 5 tests
@@ -119,6 +120,7 @@ Learn proven solutions to design problems:
 - **Strategy**: `behavioral/strategy/`
 - **Command**: `behavioral/command/`
 - **Iterator**: `behavioral/iterator/`
+- **Chain of Responsibility**: `behavioral/cor/`
 - **Template Method**: `behavioral/template/`
 
 ## 🎓 How to Use Each Concept
