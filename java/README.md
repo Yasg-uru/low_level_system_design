@@ -62,7 +62,8 @@ java/
 │           ├── observer/
 │           ├── strategy/
 │           ├── command/
-│           └── iterator/
+│           ├── iterator/
+│           └── template/
 │
 ├── src/test/java/com/lld/   # JUnit 5 tests
 │   ├── oops/
@@ -118,6 +119,7 @@ Learn proven solutions to design problems:
 - **Strategy**: `behavioral/strategy/`
 - **Command**: `behavioral/command/`
 - **Iterator**: `behavioral/iterator/`
+- **Template Method**: `behavioral/template/`
 
 ## 🎓 How to Use Each Concept
 

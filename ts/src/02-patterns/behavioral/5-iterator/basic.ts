@@ -53,6 +53,7 @@ class OrderRepository {
   }));
 
   async fetchPage(userId: string, pageIndex: number, pageSize: number): Promise<Order[]> {
+    if (!userId) return [];
     const start = pageIndex * pageSize;
     const end = start + pageSize;
     return this.mockData.slice(start, end);
