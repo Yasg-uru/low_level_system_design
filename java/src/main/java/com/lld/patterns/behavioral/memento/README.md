@@ -86,3 +86,20 @@ public class TextEditor {
     }
 }
 ```
+
+---
+
+## Real-world Example: Game Save System (Subpackage)
+
+For a more comprehensive real-world scenario (including coordinates, inventory list deep-copying, manual save slots, and rolling autosaves), refer to the files under the `game` subpackage:
+
+- **Originator**: [GameState.java](file:///Users/apple/default/lld%20practice/java/src/main/java/com/lld/patterns/behavioral/memento/game/GameState.java)
+- **Memento**: [GameMemento.java](file:///Users/apple/default/lld%20practice/java/src/main/java/com/lld/patterns/behavioral/memento/game/GameMemento.java)
+- **Caretaker**: [SaveSlotManager.java](file:///Users/apple/default/lld%20practice/java/src/main/java/com/lld/patterns/behavioral/memento/game/SaveSlotManager.java)
+- **Demo Runner**: [Main.java (Game)](file:///Users/apple/default/lld%20practice/java/src/main/java/com/lld/patterns/behavioral/memento/game/Main.java)
+
+### Key Design Details (Java Implementation):
+1. **Records**: Uses Java `record` classes (`Position` and `GameStateSnapshot`) to model immutable state representations cleanly.
+2. **Deep Copying**: Ensures deep-copying of the position coordinate objects and collections (via `List.copyOf` / `new ArrayList<>`) inside `GameMemento` to protect the originator's state from outside mutation.
+3. **Caretaker Logic**: Implements both a `Map` for manual save slots and an `ArrayList` acting as a bounded queue for checkpoint autosaves.
+

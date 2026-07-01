@@ -69,3 +69,18 @@ class TextEditor {
 
 - **Immutability**: Memento objects must be immutable to ensure history cannot be tampered with.
 - **Single Responsibility Principle**: The Caretaker manages the stack of history, whereas the Originator manages its own active state.
+
+---
+
+## Real-world Example: Game Save System
+
+For a more comprehensive real-world scenario, see [game.example.ts](file:///Users/apple/default/lld%20practice/ts/src/02-patterns/behavioral/9-momento/game.example.ts).
+
+### Overview
+
+In a typical video game, players can save their progress manually into different slots, and the game also performs automatic saves (autosaves) at checkpoints.
+
+- **Originator (`GameState`)**: Represents the active game state (level, score, current coordinates, inventory, health). It creates the memento (`GameMomento`) when saving and restores its state from a memento when loading.
+- **Memento (`GameMomento`)**: Stores a deep copy of the `GameStateSnapshot` (deep copying the position and list of inventory items to avoid reference leaks).
+- **Caretaker (`SaveSlotManager`)**: Manages manual save slots (using a map) and a rolling history stack of autosaves (limiting it to the last 5 autosaves).
+
