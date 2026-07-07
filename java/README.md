@@ -64,7 +64,8 @@ java/
 │           ├── command/
 │           ├── iterator/
 │           ├── cor/
-│           └── template/
+│           ├── template/
+│           └── interpreter/
 │
 ├── src/test/java/com/lld/   # JUnit 5 tests
 │   ├── oops/
@@ -122,6 +123,7 @@ Learn proven solutions to design problems:
 - **Iterator**: `behavioral/iterator/`
 - **Chain of Responsibility**: `behavioral/cor/`
 - **Template Method**: `behavioral/template/`
+- **Interpreter**: `behavioral/interpreter/`
 
 ## 🎓 How to Use Each Concept
 

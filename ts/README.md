@@ -62,7 +62,8 @@ ts/
 │   │       ├── 4-state/
 │   │       ├── 5-iterator/
 │   │       ├── 6-cor/
-│   │       └── 7-template/
+│   │       ├── 7-template/
+│   │       └── 11-interpreter/
 │   │
 │   └── shared/             # Common utilities
 │
@@ -121,6 +122,7 @@ Learn proven solutions to design problems:
 - **Iterator**: `behavioral/5-iterator/README.md`
 - **Chain of Responsibility**: `behavioral/6-cor/README.md`
 - **Template Method**: `behavioral/7-template/README.md`
+- **Interpreter**: `behavioral/11-interpreter/README.md`
 
 ## 🎓 How to Use Each Concept
 
